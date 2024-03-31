@@ -1,0 +1,31 @@
+.list-group {
+    list-style: none;
+    padding: 25px;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-group-item {
+    padding: 10px 10px 10px 10px;
+    color: #495057
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.edit-btn {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.trash-btn {
+    cursor: pointer;
+}
